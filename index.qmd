@@ -17,6 +17,6 @@ Beyond astrophysics, I love mountains — climbing, hiking, and alpinism — and
 </div>
 
 
-<div style="margin-top: 60px; width: 62vw; position: relative; left: 50%; right: 50%; margin-left: -31vw; margin-right: -20vw;">
+<div style="margin-top: 60px; width: 60vw; position: relative; left: 50%; right: 50%; margin-left: -30vw; margin-right: -20vw;">
   <img src="images/cover.jpg" alt="Cover image" style="width: 100%; height: auto; display: block;">
 </div>

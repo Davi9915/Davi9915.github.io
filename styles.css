@@ -36,15 +36,18 @@ main > h1 {
     margin-left: -30vw;
     margin-right: -30vw;
     width: 60vw;
-    gap: 60px;
+    gap: 30px;
     display: flex;
     max-width: none;
+    text-align: justify;
+    align-items: center;
 }
 
 .bio-container img {
-  width: 280px;    /* fixed width for the image */
+  width: 270px;    /* fixed width for the image */
   border-radius: 8px; /* rounded corners for the image */
 }
+
 
 /* Left Sidebar - Only shown on specific pages */
 .left-sidebar {
@@ -128,8 +131,8 @@ body:has(.left-sidebar) {
 /* RESPONSIVE DESIGN FOR MOBILE & TABLETS     */
 /* ============================================ */
 
-/* Tablet (768px and below) */
-@media (max-width: 768px) {
+/* Tablet (850px and below) */
+@media (max-width: 850px) {
   body {
     font-size: 16px;
     margin-left: 0 !important;
@@ -141,11 +144,11 @@ body:has(.left-sidebar) {
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   main > h1 {
@@ -158,14 +161,18 @@ body:has(.left-sidebar) {
   }
 
   .bio-container {
-    margin-left: -50vw;
-    margin-right: -50vw;
-    width: 100vw;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
     flex-direction: column;
-    align-items: center;
     gap: 30px;
-    padding: 0 20px;
     box-sizing: border-box;
+    padding: 0 20px;
+    text-align: justify;
+    align-items: center;
   }
 
   .bio-container img {
@@ -174,10 +181,15 @@ body:has(.left-sidebar) {
   }
 }
 
+
+
+
+
 /* Mobile (480px and below) */
 @media (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
+    margin-left: 0 !important;
   }
 
   h1 {
@@ -192,16 +204,23 @@ body:has(.left-sidebar) {
   h3 {
     font-size: 16px;
   }
-
-  main > h1 {
-    margin-bottom: 30px !important;
-  }
+position: static !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    flex-direction: column;
+    padding: 0 15px;
+    gap: 20px;
+    line-height: 1.2;
+    align-items: center
 
   .bio-container {
-    width: 100%;
-    margin: 0;
+    flex-direction: column;
     padding: 0 15px;
-    box-sizing: border-box;
+    gap: 10px;
+    line-height: 1.2;
   }
 
   .bio-container img {
