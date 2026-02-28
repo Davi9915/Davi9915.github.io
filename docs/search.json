@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "About this site"
+    "text": "Davide Tornotti\n    Third-year PhD Student\n    \n      Milan, Italy\n      University of Milano-Bicocca\n      d.tornotti@campus.unimib.it\n      ORCID\n      LinkedIn"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Davide Tornotti\n    Third-year PhD Student\n    \n      Milan, Italy\n      University of Milano-Bicocca\n      d.tornotti@campus.unimib.it\n      ORCID\n      LinkedIn\n    \n  \n\nFeel free to contact me! You can reach me via email: d.tornotti@campus.unimib.it"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Third-year PhD Student\n    \n      Milan, Italy\n      University of Milano-Bicocca\n      d.tornotti@campus.unimib.it\n      ORCID\n      LinkedIn"
+  },
+  {
+    "objectID": "research.html#first-author-publications",
+    "href": "research.html#first-author-publications",
+    "title": "Research",
+    "section": "First-Author Publications",
+    "text": "First-Author Publications\n\n  \n  \n    \n    \n      High-definition imaging of a filamentary connection between a close quasar pair at z=3\n      Tornotti et al. 2025a - Nature Astronomy\n      \n      \n        Read on arXiv → | \n        Published →\n      \n      \n      \n      \n         Media Coverage\n        \n          \n            English\n            \n              Cover of Nature Astronomy   \n              European Southern Observatory \n              Max Planck Institute for Astrophysics \n            \n            \n          \n          \n            Italian\n            \n              Università Milano-Bicocca  \n              Inaf  \n              Le Scienze  \n              Wired  \n            \n          \n        \n      \n    \n  \n\n\n\n  \n  \n    \n    \n      The MUSE Ultra Deep Field: A 5 Mpc stretch of the z~4 cosmic web revealed in emission\n      Tornotti et al. 2025b - ApJL\n      \n      \n        Read on arXiv → | \n         Published →\n      \n    \n  \n\n\n\n  \n  \n    \n    \n      Bayesian luminosity function estimation in multi-depth datasets with selection effects: A case study for 3&lt;z&lt;5 Lyman α emitters\n      Tornotti et al. 2025c - A&A\n      \n      \n        Read on arXiv → | \n         Published →"
+  },
+  {
+    "objectID": "research.html#all-publications",
+    "href": "research.html#all-publications",
+    "title": "Research",
+    "section": "All Publications",
+    "text": "All Publications\n\n  View all my publications on NASA ADS:\n  \n    View on ADS →\n  \n  \n    Click the button above to see all my papers with full details, citations, and access to PDFs"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mywebsite",
+    "title": "Davide Tornotti",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome! I’m a third-year PhD student in astrophysics at the University of Milano-Bicocca in Italy.\nMy research explores the filamentary structure of the Cosmic Web — the large-scale network that forms the backbone of our Universe — and how galaxies evolve within these environments across cosmic time. I combine observational data from state-of-the-art facilities such as VLT/MUSE with cosmological simulations.\nBeyond astrophysics, I love the mountains — climbing, hiking, and alpinism — and I’m an active member of the Italian Alpine Club, where I am also a climbing instructor."
   }
 ]

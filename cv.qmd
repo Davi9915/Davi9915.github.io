@@ -1,0 +1,32 @@
+---
+title: "Curriculum Vitae"
+format: html
+---
+
+```{=html}
+<aside class="left-sidebar">
+  <div class="sidebar-content">
+    <img src="images/me.jpg" alt="Davide Tornotti" class="sidebar-photo">
+    <h2 class="sidebar-name">Davide Tornotti</h2>
+    <p class="sidebar-title">Third-year PhD Student</p>
+    <div class="sidebar-info">
+      <div class="info-item"><i class="fas fa-map-pin" style="font-size: 16px; min-width: 20px;"></i><span>Milan, Italy</span></div>
+      <div class="info-item"><i class="fas fa-university" style="font-size: 16px; min-width: 20px;"></i><span>University of Milano-Bicocca</span></div>
+      <div class="info-item"><i class="fas fa-envelope" style="font-size: 16px; min-width: 20px;"></i><a href="mailto:d.tornotti@campus.unimib.it">d.tornotti@campus.unimib.it</a></div>
+      <div class="info-item"><i class="fab fa-orcid" style="font-size: 16px; min-width: 20px;"></i><a href="https://orcid.org/0009-0001-3388-8742" target="_blank">ORCID</a></div>
+      <div class="info-item"><i class="fab fa-linkedin" style="font-size: 16px; min-width: 20px;"></i><a href="https://linkedin.com/in/davide-tornotti-8a20981b9" target="_blank">LinkedIn</a></div>
+    </div>
+  </div>
+</aside>
+```
+
+```{=html}
+<div style="display: flex; justify-content: center; align-items: center; background-color: #f5f5f5; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <iframe src="cv/CV_Davide_Tornotti.pdf" 
+          width="100%" 
+          height="1000px"
+          style="border: none; display: block;">
+  </iframe>
+</div>
+```
+

@@ -1,1 +1,125 @@
 /* css styles */
+
+/* Import Font Awesome for icons */
+/*  https://fontawesome.com/icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Testo globale */
+body {
+    font-size: 20px;    
+    line-height: 1.8;   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Titoli */
+h1 {
+    font-size: 38px;
+    margin-bottom: 100px !important; /* space between title and content */
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+main > h1 {
+    margin-bottom: 180px !important;
+}
+
+.bio-container {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -30vw;
+    margin-right: -30vw;
+    width: 60vw;
+    gap: 60px;
+    display: flex;
+    max-width: none;
+}
+
+.bio-container img {
+  width: 280px;    /* fixed width for the image */
+  border-radius: 8px; /* rounded corners for the image */
+}
+
+/* Left Sidebar - Only shown on specific pages */
+.left-sidebar {
+  position: fixed;
+  left: 0;
+  top: 70px;
+  width: 280px;
+  height: calc(100vh - 70px);
+  background-color: #f8f9fa;
+  border-right: 1px solid #e0e0e0;
+  padding: 30px 20px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.sidebar-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.sidebar-title {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 20px 0;
+  font-style: italic;
+}
+
+.sidebar-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.info-item .icon {
+  font-size: 16px;
+  min-width: 20px;
+}
+
+.info-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info-item a:hover {
+  text-decoration: underline;
+}
+
+/* When sidebar is present, add left margin to main content */
+body:has(.left-sidebar) {
+  margin-left: 280px;
+}

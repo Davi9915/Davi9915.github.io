@@ -6,9 +6,12 @@ website:
   title: "Davide Tornotti"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
