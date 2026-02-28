@@ -123,3 +123,97 @@ main > h1 {
 body:has(.left-sidebar) {
   margin-left: 280px;
 }
+
+/* ============================================ */
+/* RESPONSIVE DESIGN FOR MOBILE & TABLETS     */
+/* ============================================ */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin-left: 0 !important;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 40px !important;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  main > h1 {
+    margin-bottom: 60px !important;
+  }
+
+  /* Hide sidebar on tablets and below */
+  .left-sidebar {
+    display: none;
+  }
+
+  .bio-container {
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .bio-container img {
+    width: 200px;
+    max-width: 100%;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 30px !important;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  main > h1 {
+    margin-bottom: 30px !important;
+  }
+
+  .bio-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .bio-container img {
+    width: 150px;
+  }
+
+  /* Adatta i grid dei paper */
+  [style*="grid-template-columns: 300px"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  [style*="grid-template-columns: 380px"] {
+    grid-template-columns: 1fr !important;
+  }
+}
