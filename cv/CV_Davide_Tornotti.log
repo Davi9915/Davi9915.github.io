@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  14 MAR 2026 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.10)  14 MAR 2026 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,7 +996,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 65.
+nput line 67.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
@@ -1016,7 +1016,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 115.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 121.
 
 
 
@@ -1025,7 +1025,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                \setlength{\footskip}{40.8pt}.
 
 [3]
-Overfull \hbox (0.96596pt too wide) in paragraph at lines 128--128
+Overfull \hbox (0.96596pt too wide) in paragraph at lines 134--134
  []|[]\OT1/cmss/m/n/10.95 (-20) RockClimbing[]|
  []
 
@@ -1040,14 +1040,14 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 13.12pt have occurred.
 
 Package rerunfilecheck Info: File `CV_Davide_Tornotti.out' has not changed.
-(rerunfilecheck)             Checksum: 2AE8D7F55666E0ACACE798BCA09A0CDB;2036.
+(rerunfilecheck)             Checksum: 8D6E7D2CA2B77B814A4F6EB644EF9750;2415.
  ) 
 Here is how much of TeX's memory you used:
- 28753 strings out of 476025
- 546997 string characters out of 5790017
- 1891388 words of memory out of 5000000
- 48629 multiletter control sequences out of 15000+600000
- 525627 words of font info for 111 fonts, out of 8000000 for 9000
+ 28761 strings out of 476025
+ 547089 string characters out of 5790017
+ 1892388 words of memory out of 5000000
+ 48632 multiletter control sequences out of 15000+600000
+ 525743 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,14n,122p,1015b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -1062,10 +1062,10 @@ cm/cmssi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msam10.pfb>
-Output written on CV_Davide_Tornotti.pdf (4 pages, 139033 bytes).
+Output written on CV_Davide_Tornotti.pdf (4 pages, 140252 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 33421 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 33445 words of extra memory for PDF output out of 35830 (max. 10000000)
 
