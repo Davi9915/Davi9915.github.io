@@ -7,13 +7,14 @@
 \usepackage{babel}
 \usepackage{mathtools}
 \usepackage{amssymb}
+\usepackage{needspace}
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
 \firstname{}
 \familyname{Davide Tornotti}
 %\title{Resumé title}                               % optional, remove/comment the line if not wanted
-\address{University of Milano Bicocca}{Department of Physics}{Italy}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\address{University of Milano-Bicocca}{Department of Physics}{Italy}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
 %\mobile{mobile number}                          % optional, remove/comment the line if not wanted
 %\phone{phone number}                           % optional, remove/comment the line if not wanted
 %\fax{fax number}                             % optional, remove/comment the line if not wanted
@@ -29,6 +30,11 @@
 }
 
 
+%----------------------------------------------------------------------------------
+%   ORCID: replace the placeholder below with your ORCID iD (format 0000-0000-0000-0000)
+%----------------------------------------------------------------------------------
+\newcommand{\myorcid}{0009-0001-3388-8742}
+
 \begin{document}
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
@@ -36,28 +42,79 @@
 \section{Personal Information}
 \cvitem{Email:}{d.tornotti@campus.unimib.it}
 \cvitem{Link:}{\url{https://en.unimib.it/davide-tornotti}}
+\cvitem{ORCID:}{\href{https://orcid.org/\myorcid}{\myorcid}}
 \cvitem{Nationality:}{Italian}
 
 \section{Scientific Interests}
-\cvitem{}{Cosmic filaments, circumgalactic and intergalactic medium, Ly$\alpha$ emission, active galactic nuclei, supermassive black holes}
+\cvitem{}{Cosmic web, circumgalactic and intergalactic medium, Ly$\alpha$ emission and radiative transfer, galaxy evolution in different environments, cosmological simulations, large-scale structure, integral-field spectroscopy}
 
 \section{Education}
-\cventry{Ongoing}{PhD in Astrophysics}{Università degli Studi di Milano-Bicocca}{Italy}{}{Title: Unveiling the cosmic structures with ultra-deep spectroscopic data} 
-\cventry{2021--2023}{Master Degree in Physics}{Università degli Studi di Milano}{Italy}{110/110 cum laude}{Thesis: Reliability of the Ly$\alpha$ line as a virial broadening estimator for quasars at high redshift} 
-\cventry{2018--2021}{Bachelor Degree in Physics}{Università degli Studi di Milano}{Italy}{110/110 cum laude}{Thesis: Determination of the supermassive black holes mass in a sample of Type 1 AGN from the VIPERS survey}  
+\cventry{2023--}{PhD in Astrophysics (expected September 2027)}{Università degli Studi di Milano-Bicocca}{Italy}{}{Title: Unveiling the cosmic structures with ultra-deep spectroscopic data} 
+\cventry{2021--2023}{MSc in Physics}{Università degli Studi di Milano}{Italy}{110/110 cum laude}{Thesis: Reliability of the Ly$\alpha$ line as a virial broadening estimator for quasars at high redshift} 
+\cventry{2018--2021}{BSc in Physics}{Università degli Studi di Milano}{Italy}{110/110 cum laude}{Thesis: Determination of the supermassive black holes mass in a sample of Type 1 AGN from the VIPERS survey}  
 
 \section{Awards and Fellowships}
-\cventry{2026}{Enrico Fermi Fellowship}{}{}{}{}
+\cventry{2026}{Enrico Fermi Fellowship}{John Templeton Foundation}{}{}{}
 
-\section{Collaborations and visits}
+\section{Publications}
+\cvitem{}{7 refereed papers (4 first-author, including \textit{Nature Astronomy} and \textit{ApJL}); 1 public software package; 1 white paper. Full list: \href{https://ui.adsabs.harvard.edu/search/q=orcid\%3A\myorcid}{NASA/ADS}.}
+
+\subsection{Refereed -- first author}
+\cvitem{1.}{\textbf{Tornotti, D.}, Fumagalli, M., Fossati, M., et al. 2026, A\&A, 715, A59. \textit{Cosmic web Ly$\alpha$ emission in a sample of overdense regions.}}
+\cvitem{2.}{\textbf{Tornotti, D.}, Fossati, M., Fumagalli, M., et al. 2025, A\&A, 704, A201. \textit{Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\alpha$ emitters.}}
+\cvitem{3.}{\textbf{Tornotti, D.}, Fumagalli, M., Fossati, M., et al. 2025, ApJL, 980, L43. \textit{The MUSE Ultra Deep Field: a 5\,Mpc stretch of the $z\approx4$ cosmic web revealed in emission.}}
+\cvitem{4.}{\textbf{Tornotti, D.}, Fumagalli, M., Fossati, M., et al. 2025, Nature Astronomy, 9, 577--588. \textit{High-definition imaging of a filamentary connection between a close quasar pair at $z=3$.}}
+
+\needspace{5\baselineskip}
+\subsection{Refereed -- co-author}
+\cvitem{5.}{Mukherjee, T., Li, Z., \ldots, \textbf{Tornotti, D.}, et al. 2026, A\&A, 710, A331. \textit{BLUEPRINT: Blue-dominant Lyman-$\alpha$ emission as evidence of gas inflow in ultra-low-mass galaxies at $z=3$.}}
+\cvitem{6.}{Galbiati, M., \textbf{Tornotti, D.}, Fumagalli, M., et al. 2026, A\&A, 709, A233. \textit{MUSE Analysis of Gas around Galaxies (MAGG) VII. Emission-line galaxies near strong blended Ly$\alpha$ absorption systems at $z\gtrsim3$.}}
+\cvitem{7.}{Pensabene, A., Galbiati, M., Fumagalli, M., \ldots, \textbf{Tornotti, D.}, et al. 2025, A\&A, 696, A33. \textit{The MUSE Ultra Deep Field (MUDF) VII. Probing high-redshift gas structures in the surroundings of ALMA-identified massive dusty galaxies.}}
+
+\subsection{Software}
+\cvitem{8.}{Fossati, M., \& \textbf{Tornotti, D.} 2025, Zenodo, v1.1.0, \href{https://doi.org/10.5281/zenodo.14710518}{doi:10.5281/zenodo.14710518}. \textit{SHINE (Spectral Highlighting and Identification of Emission)}: Python package to detect and visualise emission features in integral-field spectroscopic data (\href{https://github.com/matteofox/SHINE}{GitHub}).}
+
+
+\subsection{Other publications (non-refereed)}
+\cvitem{9.}{Goovaerts, I., Beckett, A., Hayes, M., \ldots, \textbf{Tornotti, D.}, et al. 2026, arXiv:2606.04136. \textit{HST's Deep Blue: extremely deep UV imaging to reveal the contributors to reionization} (white paper).}
+
+\section{Leadership and Collaborations}
+\cvitem{2025--}{\textbf{Wide-field Spectroscopic Telescope (WST)}: lead contributor to the Cosmic Web science case (Cosmic Web Tiger Team)}
+\cvitem{2024--}{\textbf{MUSE Ultra Deep Field (MUDF) survey}: lead of the MUSE analysis for intergalactic medium studies}
+\cvitem{2025--}{\textbf{MUSERePipe}: co-lead of the archival project to build a homogeneous, science-ready collection of the deepest MUSE observations}
+\cvitem{2025--}{\textbf{MIRACLES survey}: team member contributing to the HSC analysis for intergalactic medium studies}
+
+\section{Observing Programmes (PI and Co-I)}
+\cvitem{2026}{\textbf{PI}, ESO VST/OmegaCAM, 47\,h (117.2B2G.001): \textit{Tracing the large-scale environment of the MUDF filaments with LBGs}}
+\cvitem{2026}{\textbf{Co-I}, ESO VLT/MUSE, 40\,h (117.29XU): \textit{Detailed characterization of the cosmic web filaments at $z=3$}}
+
+\section{Mentoring and Teaching}
+\cvitem{2024--}{Co-supervisor of 5 Bachelor and Master theses, University of Milano-Bicocca}
+\cvitem{2025}{Invited hands-on session on volumetric data analysis in astrophysics, Imaging25, Varenna, Italy}
+\cvitem{2025--}{Teaching Assistant, Laboratory of data acquisition, MSc in Astrophysics and Space Physics, University of Milano-Bicocca}
+\cvitem{2025--}{Tutor, Introduction to galaxies, MSc in Astrophysics and Space Physics, University of Milano-Bicocca}
+
+\needspace{6\baselineskip}
+\section{Service and Public Engagement}
+\cvitem{2025--}{Referee for \textit{Astronomy \& Astrophysics}}
+\cvitem{Jun., 2024}{Member of the LOC, \textit{What Matter(s) Around Galaxies 2024}, Varenna, Italy}
+\cvitem{2024--}{Outreach activities and planetarium sessions at University of Milano-Bicocca}
+
+\section{Research Visits}
 \cventry{30-31/10/25}{Visitor}{Kavli Institute for Cosmology}{University of Cambridge}{Cambridge}{}
 \cventry{28/10/25}{Visitor}{The Royal Observatory}{University of Edinburgh}{Edinburgh}{}{}
 \cventry{27/10/25}{Visitor}{University of Durham}{Durham}{}{}
 \cventry{05--08/25}{Visitor}{Max Planck Institute for Astrophysics}{Germany}{}{}
 
 \section{Talks, Seminars, Conferences}
+\cvitem{}{24 talks and seminars since 2024, of which 8 invited.}
+\cventry{Oct., 2026}{Filaments in the multi-scale Universe}{Kavli IPMU}{Japan}{}{Unveiling the cosmic web through Ly$\alpha$ emission}
+\cventry{Jul., 2026}{ESO Expanding Horizon}{ESO}{Germany}{The $z\sim2-5$ cosmic web ecosystem: a revolutionary vantage point with WST}{}
+\cventry{Jun., 2026}{Bicoq Conference: from gravity to particles}{Milan}{Italy}{Mapping the Cosmic Web in Ly$\alpha$ emission}{}
+\cventry{Jun., 2026}{RASCAS User Meeting}{Lyon}{France}{Modeling the diffuse Ly$\alpha$ emission of the Cosmic Web:
+	RASCAS post-processing of COLIBRE simulations}{}
 \cventry{Nov., 2025}{The multiscale environment of AGN across cosmic time}{Ringberg}{Germany}{Invited}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
-\cventry{Oct., 2025}{Galaxies  Discussion Groups}{Kavli Institute for Cosmology}{Cambridge}{UK}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
+\cventry{Oct., 2025}{Galaxies Discussion Group}{Kavli Institute for Cosmology}{Cambridge}{UK}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
 \cventry{Oct., 2025}{Coffee Talk}{The Royal Observatory}{Edinburgh}{UK}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
 \cventry{Oct., 2025}{Seminar}{University of Durham}{Durham}{UK}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
 \cventry{Oct., 2025}{IASF Colloquium Series}{IASF-INAF}{Milan}{Invited}{Mapping the Cosmic Web in Ly$\alpha$ emission Around Quasars and Non-AGN Galaxies}
@@ -70,7 +127,7 @@
 \cventry{Jun., 2025}{OPINAS Seminar}{MPE}{Garching}{Invited}{Mapping the cosmic web in Ly$\alpha$ emission}
 \cventry{Jun., 2025}{EAS}{SS7a: WST: the Wide-field spectroscopic facility}{Cork}{Ireland}{The cosmic web in Ly$\alpha$ emission: from MUSE to WST.}
 \cventry{Jun., 2025}{Cosmology Seminar}{MPA}{Garching}{}{Unveiling the cosmic web through Ly$\alpha$ emission:  an ultra-deep observation with MUSE}
-\cventry{Apr., 2025}{Cafè-Club}{LAM}{Online}{Invited}{Unveiling the cosmic web through Ly$\alpha$ emission:  an ultra-deep observation with MUSE}
+\cventry{Apr., 2025}{Café-Club}{LAM}{Online}{Invited}{Unveiling the cosmic web through Ly$\alpha$ emission:  an ultra-deep observation with MUSE}
 \cventry{Apr., 2025}{Escape of Lyman radiation from galactic labyrinths}{OAC}{Crete}{}{Unveiling the cosmic web through Ly$\alpha$ emission:  an ultra-deep observation with MUSE}
 \cventry{Mar., 2025}{WST: Surveying the Universe in the 2040's and beyond}{INAF}{Naples}{}{Unveiling the cosmic web through Ly$\alpha$ emission: from MUSE to WST}
 \cventry{Jan., 2025}{Cosmolunch Colloquium}{HUJI}{Online}{Invited}{Unveiling the cosmic web through Ly$\alpha$ emission: an ultra-deep observation with MUSE}
@@ -79,60 +136,20 @@
 \cventry{Jun., 2024}{What Matter(s) Around Galaxies 2024}{Varenna}{Italy}{}{A high-resolution view of the cosmic web in emission at high redshift}
 \cventry{Jun., 2024}{Where the Circum Galactic Medium meets the galaxy environment}{IFPU}{Italy}{}{A high-resolution view of the cosmic web in emission at high redshift}
 
-\section{Papers}
-\subsection{First author}
-\cventry{1.}{Tornotti, D.}{}{Fossati, M., Fumagalli, M., et al. 2025, A\&A, 704, A201}{\textit{Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\alpha$ emitters.}}{}{}
-\cventry{2.}{Tornotti, D.}{}{Fumagalli, M., Fossati, M., et al. 2025b, ApJL, 980, 2, L43}{\textit{The MUSE Ultra Deep Field: A 5 Mpc stretch of the z $\approx$ 4 cosmic web revealed in emission.}}{}{}
-\cventry{3.}{Tornotti, D.}{}{Fumagalli, M., Fossati, M., et al. 2025a, Nature Astronomy}{\textit{High-definition imaging of a filamentary connection between a close quasar pair at z=3.}}{}{}
-\subsection{Co-author}
-\cvitem{1.}{Mukherjee, T., Li, Z., ..., \textbf{Tornotti, D.}, Constantin, L. et al. 2026, submitted to A\&A \textit{BLUEPRINT: Blue-dominant Lyman-alpha (Ly$\alpha$) emission as an evidence of gas inflow in ultra-low-mass galaxies at z = 3}}
-\cvitem{2.}{Galbiati M., \textbf{Tornotti, D.}, Fumagalli, M. et al. 2025, submitted to A\&A \textit{MUSE Analysis of Gas around Galaxies (MAGG) VII. Emission line galaxies near strong blended Ly$\alpha$ absorption systems at $z\gtrsim3$}}
-\cvitem{3.}{Pensabene, A., Galbiati, M., Fumagalli, M., ..., \textbf{Tornotti, D.} et al. 2024, A\&A, 696, A33, \textit{The MUSE Ultra Deep Field (MUDF) VII. Probing high-redshift gas structures in the surroundings of ALMA-identified massive dusty galaxies.}}
-
-\section{Astronomical Data Analysis Tools}
-\cventry{}{Fossati, M. \& Tornotti, D.}{}{%
-	\textit{SHINE – Spectral Highlighting and IdentificatioN of Emission}%
-}{Python package designed for the detection and visualization of emission features in integral-field spectroscopy (IFU) datasets. \href{https://github.com/matteofox/SHINE}{\textcolor{blue}{GitHub repository}}}{}
-
-
-\section{Surveys and Activities}
-\cvitem{2025--}{Cosmic Web Science Case Tiger Team, Wide-Field Spectroscopic Telescope (WST): Member and lead contributor to the survey proposal}
-\cvitem{2025--}{MIRACLES survey: team member contributing to the HSC analysis for intergalactic medium studies}
-\cvitem{2024--}{MUSE Ultra Deep Field (MUDF) survey: Lead of the MUSE analysis for intergalactic medium studies}
-\cvitem{2025--}{Peer reviewer for \textit{Astronomy \& Astrophysics}}
-
-\section{Teaching and Advising}
-\cvitem{2025--}{Bachelor and Master thesis co-supervisor (3 students)}
-\cvitem{2025--}{Teaching Assistant, Laboratory of data acquisition, MSc in Astrophysics and Space Physics, University of Milano-Bicocca}
-\cvitem{2025--}{Tutor, Introduction to galaxies, MSc in Astrophysics and Space Physics, University of Milano-Bicocca}
-
-\section{Computer skills}
-\cvitem{Python}{Code development and familiarity with major astrophysical data analysis packages}
-\cvitem{DS9}{Astronomical imaging and data visualization software.}
-\cvitem{QFitsView}{Tool for the visualization and quick analysis of FITS images and integral-field spectroscopy (IFU) data.}
-\cvitem{SIPGI}{\href{https://pandora.lambrate.inaf.it/docs/sipgi/}{\textcolor{blue}{Spectroscopic Interactive Pipeline and Graphical Interface}}}
-\cvdoubleitem{LaTex}{}{}{}
-
 \section{Schools}
-\cvitem{Oct., 2024}{Artificial Intelligence and Modern Physics: a two-way Connection, Monopoly, Italy}
+\cvitem{Oct., 2024}{Artificial Intelligence and Modern Physics: a two-way Connection, Monopoli, Italy}
 \cvitem{Jan., 2024}{Machine and Deep Learning, INAF-IASF, Italy}
 
 \section{Languages}
 \cvitemwithcomment{Italian}{Mother Tongue}{}
-\cvitemwithcomment{English}{B2}{}
+\cvitemwithcomment{English}{Fluent}{}
 
 
-\section{Experience}
-\subsection{Volunteering}
+\needspace{4\baselineskip}
+\section{Volunteering}
 \cvitem{2024--}{Climbing Instructor, CNSASA, Club Alpino Italiano, Italy}
 \cvitem{2018--}{Responsible for Makalu Rock Cube Climbing Gym, Club Alpino Italiano, Cameri, Italy}
 \cvitem{2018--}{Board Member, CAI Cameri Section, Italy}
-\subsection{Miscellaneous}
-\cvitem{2018--}{Private Tutor, Italy}
 
-\section{Other}
-\cvitem{Rock\,Climbing}{}
-\cvitem{Alpinism}{}
-\cvitem{Hiking}{}
 
 \end{document}
